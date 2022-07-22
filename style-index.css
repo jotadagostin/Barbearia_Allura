@@ -12,7 +12,8 @@ header {
     background: #BBBBBB;
     background-image: linear-gradient(to bottom, rgb(102, 102, 102), white);
     padding: 20px 0;
-    min-width: 1000px;
+    min-width: 320px;
+    min-height: 150px;
 }
 
 .caixa {
@@ -23,9 +24,13 @@ header {
 
 nav {
     position: absolute;
+    display: inline;
     top: 110px;
     right: 0;
     padding-right: 35px;
+    
+
+    
 }
 
 nav li {
@@ -151,3 +156,18 @@ footer {
     padding: 40px 0;
 }
 
+
+@media(max-width: 1200px) {
+    nav {
+        width: 200px;
+        
+    }
+
+    .principal {
+        width: 350px;
+    }
+
+    .mapa {
+        
+    }
+}
