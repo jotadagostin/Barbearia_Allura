@@ -115,3 +115,9 @@ footer {
     background: url('bg.jpg');
     padding: 40px 0;
 }
+
+@media(max-width: 1200px) {
+    nav {
+        width: 200px;
+    }
+}
