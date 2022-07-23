@@ -119,7 +119,9 @@ footer {
 
     .produtos li {
         display: block;
-        width: 50%;
+        width: 45%;
+        
+        
     }
     
 }
