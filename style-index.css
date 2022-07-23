@@ -157,17 +157,29 @@ footer {
 }
 
 
-@media(max-width: 1200px) {
+@media screen and (max-width: 760px) {
+    
     nav {
         width: 200px;
         
+    }
+
+    nav ul {
+        flex-direction: row;
+        padding-left: 70px;
     }
 
     .principal {
         width: 350px;
     }
 
-    .mapa {
+    .mapa, .beneficios, .mapa-conteudo, .video {
         
+        width: auto;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
     }
 }
+

@@ -105,8 +105,17 @@ footer {
     padding: 40px 0;
 }
 
-@media(max-width: 1200px) {
+@media screen and (max-width: 760px) {
+    
     nav {
         width: 200px;
+        
     }
+
+    nav ul {
+        flex-direction: row;
+        padding-left: 70px;
+    }
+
+    
 }
