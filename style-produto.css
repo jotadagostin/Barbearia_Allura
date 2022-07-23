@@ -121,8 +121,12 @@ footer {
         display: block;
         width: 45%;
         
+    
         
-        
+    }
+
+    footer {
+        width: auto;
     }
     
 }
