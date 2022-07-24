@@ -107,6 +107,8 @@ footer {
 
 @media screen and (max-width: 760px) {
     
+    
+
     nav {
         width: 200px;
         
@@ -117,16 +119,28 @@ footer {
         padding-left: 70px;
     }
 
-    .produtos li {
+    
+
+    
+
+    .produtos  li {
         display: block;
-        width: 45%;
+        position: relative;
+        width: auto;
+        
+        
+        
         
     
         
     }
 
-    footer {
+    main, ul, li {
         width: auto;
     }
+
+    
+
+    
     
 }
