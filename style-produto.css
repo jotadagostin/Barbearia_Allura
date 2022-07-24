@@ -123,16 +123,11 @@ footer {
 
     
 
-    .produtos  li {
-        display: block;
-        position: relative;
-        width: auto;
-        
-        
-        
-        
-    
-        
+    .produtos, .produtos li {
+        display:  inline-block;
+        width: 90%;
+        padding: 5px 5px;
+        margin: 10px 10px;
     }
 
     main, ul, li {

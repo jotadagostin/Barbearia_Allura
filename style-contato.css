@@ -128,9 +128,10 @@ footer {
         padding-left: 70px;
     }
 
-    .enviar {
+    main {
         
-
+        width: auto;
+        margin: 0 2%;
     }
 
    
